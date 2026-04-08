@@ -34,20 +34,6 @@ CREATE TABLE `name` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
 --
--- Dumping data for table `name`
---
-
-INSERT INTO `name` (`id`, `name`, `parent_id`) VALUES
-(1, 'Zaki', 2),
-(2, 'Illham', NULL),
-(3, 'Irwan', 2),
-(4, 'Arka', 3);
-
---
--- Indexes for dumped tables
---
-
---
 -- Indexes for table `name`
 --
 ALTER TABLE `name`
