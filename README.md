@@ -1,6 +1,6 @@
-# 🧠 Backend Problem Solving (JavaScript & SQL)
+# 🧠 Backend Problem Solving (PHP, JavaScript & SQL)
 
-This repository contains solutions to backend-related programming problems, focusing on algorithm implementation and SQL queries.
+This repository contains solutions to backend-oriented programming problems using PHP, JavaScript, and SQL.
 It demonstrates my ability to solve logical problems, manipulate data, and work with relational databases.
 
 ---
@@ -9,66 +9,70 @@ It demonstrates my ability to solve logical problems, manipulate data, and work 
 
 This project showcases:
 
-* Algorithmic thinking using JavaScript
-* Data grouping & transformation
-* SQL querying with relational data (self join)
-* Backend-oriented problem solving approach
+* Algorithmic thinking using PHP & JavaScript
+* Data manipulation and processing
+* SQL querying with relational data
+* Backend-oriented problem-solving approach
 
 ---
 
-## 📂 Contents
+## 📁 Project Structure
 
-### 📌 1. group-anagrams.js
-
-Group words that are anagrams into the same collection.
-
-#### Example Input:
-
-```js
-["cook", "save", "taste", "aves", "vase", "state", "map"]
+```id="v3n2kf"
+backend-problem-solving/
+├── php/
+│   ├── count-sort-letters.php
+│   ├── pattern-count.php
+│   └── sort-array.php
+├── javascript/
+│   └── group-anagrams.js
+├── sql/
+│   ├── query-parent-name.sql
+│   └── structure-database.sql
 ```
-
-#### Example Output:
-
-```js
-[
-  ["cook"],
-  ["save", "aves", "vase"],
-  ["taste", "state"],
-  ["map"]
-]
-```
-
-#### Key Concept:
-
-* Sorting strings to identify anagrams
-* Hash map / object grouping
-* Time complexity awareness
 
 ---
 
-### 📌 2. query-parent-name.sql
+## 📂 Problem Details
 
-Retrieve hierarchical data using a self join.
+### 📌 PHP Problems
 
-#### Query Explanation:
+#### 1. count-sort-letters.php
 
-* Each record may have a parent (`parent_id`)
-* The query joins the table with itself to get parent name
+* Count occurrences of each letter in a string
+* Sort alphabetically
+* Uses associative arrays
 
-#### Example Result:
+#### 2. pattern-count.php
 
-| id | name  | parent_name |
-| -- | ----- | ----------- |
-| 1  | Zaki  | Illham      |
-| 3  | Irwan | Illham      |
-| 4  | Arka  | Irwan       |
+* Count occurrences of a substring manually
+* Uses nested loops (without built-in functions)
 
-#### Key Concept:
+#### 3. sort-array.php
 
-* SQL JOIN (self join)
-* Relational database structure
-* Handling hierarchical data
+* Sort mixed array (letters & numbers)
+* Separate → sort → merge
+
+---
+
+### 📌 JavaScript Problem
+
+#### group-anagrams.js
+
+* Group words that are anagrams
+* Uses sorting + object (hash map)
+
+---
+
+### 📌 SQL Problems
+
+#### query-parent-name.sql
+
+* Retrieve hierarchical data using self join
+
+#### structure-database.sql
+
+* Define table structure and sample data
 
 ---
 
@@ -76,7 +80,8 @@ Retrieve hierarchical data using a self join.
 
 * Algorithm & problem solving
 * String manipulation
-* Data grouping techniques
+* Array & data processing
+* Hash map / associative array
 * SQL JOIN (self join)
 * Database schema understanding
 
@@ -84,25 +89,48 @@ Retrieve hierarchical data using a self join.
 
 ## 🛠 Tech Stack
 
-* JavaScript (ES6)
+* PHP
+* JavaScript
 * SQL (MySQL)
 
 ---
 
-## 💡 Why This Project Matters
+## ▶️ How to Run
+
+### PHP
+
+```bash id="rmr0i5"
+php filename.php
+```
+
+### JavaScript
+
+```bash id="6z2s8k"
+node group-anagrams.js
+```
+
+### SQL
+
+Run queries using:
+
+* MySQL / phpMyAdmin / any SQL client
+
+---
+
+## 💼 Why This Project Matters
 
 This repository reflects my ability to:
 
-* Think logically and solve problems efficiently
-* Write clean and structured code
-* Work with relational databases
-* Understand backend fundamentals
+* Solve problems using structured and efficient logic
+* Work across multiple backend technologies
+* Understand both programming and database layers
+* Build strong backend fundamentals
 
 ---
 
 ## 📌 Notes
 
-These exercises are part of my continuous learning and preparation for backend and fullstack development roles.
+This project is part of my continuous learning and preparation for backend and fullstack development roles.
 
 ---
 
