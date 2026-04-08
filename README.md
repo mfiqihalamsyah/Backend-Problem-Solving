@@ -20,13 +20,13 @@ This project showcases:
 
 ```id="v3n2kf"
 backend-problem-solving/
-├── php/
+├── JavaScript/
+│   └── group-anagrams.js
+├── PHP/
 │   ├── count-sort-letters.php
 │   ├── pattern-count.php
 │   └── sort-array.php
-├── javascript/
-│   └── group-anagrams.js
-├── sql/
+├── SQL/
 │   ├── query-parent-name.sql
 │   └── structure-database.sql
 ```
